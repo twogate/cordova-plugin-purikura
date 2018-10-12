@@ -1,8 +1,8 @@
 import Foundation
 import AVFoundation
 
-@objc(QRScanner)
-class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
+@objc(PurikuraPlugin)
+class PurikuraPlugin : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
   func execute(command: CDVInvokedUrlCommand) {
     NSLog("execute command")
   }
