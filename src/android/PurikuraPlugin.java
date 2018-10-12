@@ -8,7 +8,7 @@ public class PurikuraPlugin extends CordovaPlugin
 {
 
 	public PurikuraPlugin() {
-		Log.i('PurikuraPlugin', "started")
+		Log.i("PurikuraPlugin", "started");
 	}
 
 	@Override
