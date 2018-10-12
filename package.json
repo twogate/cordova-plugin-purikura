@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-purikura",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cordova": {
+    "id": "cordova-plugin-playlist",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.l.twogate.net:perspective/cordova-plugin-purikura.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
