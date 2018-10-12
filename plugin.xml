@@ -29,5 +29,18 @@
 
 		<source-file src="src/android/PurikuraPlugin.java" target-dir="src/com/twogate/plugins/purikura"/>
 	</platform>
+
+		<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="Purikura">
+				<param name="ios-package" value="Purikura" />
+			</feature>
+		</config-file>
+    <dependency id="cordova-plugin-add-swift-support" spec="~1.7.2" />
+		<source-file src="src/ios/Purikura.swift" />
+    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+      <string>写真を撮影しフレームと合成します</string>
+    </config-file>
+	</platform>
 </plugin>
 
